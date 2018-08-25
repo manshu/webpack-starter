@@ -1,0 +1,18 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A simple webpack starter kit, I added after being frustrated for hours.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
